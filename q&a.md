@@ -1,3 +1,19 @@
+# Summary od DevOps subjects 
+
+
+## Table of Contents
+
+- [AWS_VPC ](#AWS_VPC )
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+
+## AWS_VPC 
+
 
 VPCs on AWS generally consist of a CIDR with multiple subnets. AWS allows one internet gateway (IG) per VPC, which is used to route traffic to and from the internet. The subnet with the IG is considered the public subnet and all others are considered private.
 
