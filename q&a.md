@@ -8,7 +8,7 @@
 - [Kubernetes Ingress Controllers](#Kubernetes Ingress Controllers)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
+- [System Design ](# System Design )
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 
@@ -32,6 +32,13 @@ This methodology is conceptually similar to physical infrastructure.
 
 https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.5/how-it-works/
 
-# Kubernetes Ingress Controllers
+## Kubernetes Ingress Controllers
 
 https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238
+
+
+## System Design 
+https://blog.sqlizer.io/posts/facebook-on-aws/ 
+
+
+
