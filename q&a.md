@@ -40,6 +40,8 @@ https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-o
 ## System_Design 
 
 https://blog.sqlizer.io/posts/facebook-on-aws/ 
+https://www.educative.io/blog/complete-guide-to-system-design
+
 
 Here are some reasons why learning system design is valuable for DevOps engineers:
 
