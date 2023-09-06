@@ -30,4 +30,16 @@ https://archive.eksworkshop.com/010_introduction/
 https://review.firstround.com/empathy-driven-development-how-engineers-can-tap-into-this-critical-skill
 
 
+# Workloads
+
+https://aws.amazon.com/blogs/containers/running-workload-on-amazon-eks-in-local-zones-with-resilient-architecture/ 
+
+Amazon EKS Blueprints for Terraform
+https://github.com/aws-ia/terraform-aws-eks-blueprints/tree/main
+
+Deploy a Kubernetes Application with Terraform and AWS EKS
+https://www.clickittech.com/devops/terraform-kubernetes-deployment/#h-how-to-deploy-a-sample-nodejs-application-on-the-eks-cluster-using-terraform
+
+
+
 
