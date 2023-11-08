@@ -9,6 +9,7 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [System Design ](#System_Design)
+- [Docker_images_reducing_size](#Docker_images_reducing_size)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 
@@ -61,7 +62,7 @@ To learn system design as a DevOps engineer, consider exploring resources such a
 blog articles, and real-world case studies. Engage in practical projects or contribute to open-source projects to gain hands-on experience. Additionally, seek opportunities to collaborate with software architects or engineers who have expertise in system design to learn from their experiences and insights.
 
 
-## Docker images reducing size 
+## Docker_images_reducing_size 
 
 What ways are there to reduce container images size?
 
