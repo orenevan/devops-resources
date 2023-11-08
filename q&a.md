@@ -57,7 +57,21 @@ Here are some reasons why learning system design is valuable for DevOps engineer
 
 6. Collaboration with Development Teams: System design knowledge allows you to effectively collaborate with development teams, understand their architectural requirements, and provide input on the infrastructure and deployment aspects of their applications. It helps bridge the gap between development and operations, enabling smoother integration and continuous delivery practices.
 
-To learn system design as a DevOps engineer, consider exploring resources such as books, online courses, blog articles, and real-world case studies. Engage in practical projects or contribute to open-source projects to gain hands-on experience. Additionally, seek opportunities to collaborate with software architects or engineers who have expertise in system design to learn from their experiences and insights.
+To learn system design as a DevOps engineer, consider exploring resources such as books, online courses,
+blog articles, and real-world case studies. Engage in practical projects or contribute to open-source projects to gain hands-on experience. Additionally, seek opportunities to collaborate with software architects or engineers who have expertise in system design to learn from their experiences and insights.
+
+
+## Docker images reducing size 
+
+What ways are there to reduce container images size?
+
+Reduce number of instructions - in some case you may be able to join layers by installing multiple packages with one instructions for example or using && to concatenate RUN instructions
+Using smaller images - in some cases you might be using images that contain more than what is needed for your application to run. It is good to get overview of some images and see whether you can use smaller images that you are usually using.
+Cleanup after running commands - some commands, like packages installation, create some metadata or cache that you might not need for running the application. It's important to clean up after such commands to reduce the image size
+For Docker images, you can use multi-stage builds
+
+
+
 
 
 
