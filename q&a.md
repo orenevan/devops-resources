@@ -10,6 +10,7 @@
   - [Installation](#installation)
 - [System Design ](#System_Design)
 - [Docker_images_reducing_size](#Docker_images_reducing_size)
+  - [Docker_file_security](#Docker_files_security)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 
@@ -72,6 +73,32 @@ Cleanup after running commands - some commands, like packages installation, crea
 For Docker images, you can use multi-stage builds
 
 
+
+
+## Docker_files_security
+  https://medium.com/@marcong_54227/how-to-write-a-production-ready-dockerfile-58d18d4daddc
+  
+  https://infosecwriteups.com/top-10-dockerfile-security-best-practices-for-a-more-secure-container-e5426f69738b
+
+### Non root user 
+Running as non-root use
+FROM mcr.microsoft.com/dotnet/aspnet:5.0
+//Create group app and user app
+ RUN addgroup --gid 1000 -S app && adduser --uid 1000 -S app -G app
+ // Set permissions for app user for the WORKDIR    
+ RUN chown -R app:app App/
+ // Switch to the created user
+ USER app
+ COPY bin/Release/netcoreapp3.1/publish/ App/
+ WORKDIR /App
+ ENTRYPOINT ["dotnet", "aspnetapp.dll"]
+
+
+
+ 
+
+
+ 
 
 
 
