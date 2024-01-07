@@ -12,6 +12,7 @@
   - [Installation](#installation)
 - [System Design ](#System_Design)
    - [horizontal-vs-vertical-scaling](#horizontal-vs-vertical-scaling)
+   - [development-and-deployment-of-massively-multiplayer-games-from-social-games](#development-and-deployment-of-massively-multiplayer-games-from-social-games)
 - [Docker_images_reducing_size](#Docker_images_reducing_size)
   - [Docker_file_security](#Docker_files_security)
 - [Configuration](#configuration)
@@ -86,6 +87,11 @@ blog articles, and real-world case studies. Engage in practical projects or cont
 ### horizontal-vs-vertical-scaling
 
 https://www.instaclustr.com/blog/horizontal-vs-vertical-scaling-which-scaling-strategy-is-right-for-me/?_bt=&_bk=&_bm=&_bn=x&_bg=&utm_term=&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=1467100120&hsa_cam=20784980828&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiAkeSsBhDUARIsAK3tief3g6A7A08pg1ihv3wbBKz4lPKRdTY6T1c80flZjDdP_UylG4qUEQUaAryHEALw_wcB
+
+### development-and-deployment-of-massively-multiplayer-games-from-social-games
+
+http://ithare.com/contents-of-development-and-deployment-of-massively-multiplayer-games-from-social-games-to-mmofps-with-stock-exchanges-in-between/
+
 
 
 ## Docker_images_reducing_size 
