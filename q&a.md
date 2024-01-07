@@ -96,6 +96,8 @@ http://ithare.com/contents-of-development-and-deployment-of-massively-multiplaye
 ### message-queues
 https://memphis-dev.medium.com/comparing-nats-and-kafka-understanding-the-differences-f08c4479dea6
 
+https://www.educative.io/courses/web-application-software-architecture-101
+
 ## Docker_images_reducing_size 
 
 What ways are there to reduce container images size?
