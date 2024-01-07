@@ -11,6 +11,7 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [System Design ](#System_Design)
+   - [horizontal-vs-vertical-scaling](#horizontal-vs-vertical-scaling)
 - [Docker_images_reducing_size](#Docker_images_reducing_size)
   - [Docker_file_security](#Docker_files_security)
 - [Configuration](#configuration)
@@ -81,6 +82,10 @@ Here are some reasons why learning system design is valuable for DevOps engineer
 
 To learn system design as a DevOps engineer, consider exploring resources such as books, online courses,
 blog articles, and real-world case studies. Engage in practical projects or contribute to open-source projects to gain hands-on experience. Additionally, seek opportunities to collaborate with software architects or engineers who have expertise in system design to learn from their experiences and insights.
+
+### horizontal-vs-vertical-scaling
+
+https://www.instaclustr.com/blog/horizontal-vs-vertical-scaling-which-scaling-strategy-is-right-for-me/?_bt=&_bk=&_bm=&_bn=x&_bg=&utm_term=&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=1467100120&hsa_cam=20784980828&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiAkeSsBhDUARIsAK3tief3g6A7A08pg1ihv3wbBKz4lPKRdTY6T1c80flZjDdP_UylG4qUEQUaAryHEALw_wcB
 
 
 ## Docker_images_reducing_size 
