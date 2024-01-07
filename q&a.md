@@ -93,7 +93,7 @@ https://www.instaclustr.com/blog/horizontal-vs-vertical-scaling-which-scaling-st
 
 http://ithare.com/contents-of-development-and-deployment-of-massively-multiplayer-games-from-social-games-to-mmofps-with-stock-exchanges-in-between/
 
-# message-queues 
+### message-queues
 https://memphis-dev.medium.com/comparing-nats-and-kafka-understanding-the-differences-f08c4479dea6
 
 ## Docker_images_reducing_size 
