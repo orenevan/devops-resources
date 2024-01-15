@@ -25,6 +25,21 @@ kubectl config get-contexts
 kubectl config use-context arn:aws:eks:us-east-1:250364183413:cluster/DG-STAGE-EKS
 
 
+# Troubleshoot by attaching to pods/nodes 
+
+##  shell 
+kubectl exec -it <pod-name> —- /bin/sh
+kubectl exec -it <pod-name> -c <container-name> —- /bin/sh
+
+## Open a shell to a node using kubectl
+kubectl debug node/<node-name> -it --image=<image name>
+image = ubuntu 
+
+## Attach debug container to a running pod and open a shell to it
+kubectl debug -it pods/<podname> --image=<image-name> -- <command>
+
+## Duplicate a pod to a sandbox and open a shell to it
+kubectl debug pod/<pod-name> -it --image=<image-name> --copy-to=my-debugger
 
 
 # Wait for pod to start 
