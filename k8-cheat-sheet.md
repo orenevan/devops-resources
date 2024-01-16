@@ -26,6 +26,8 @@ kubectl config use-context arn:aws:eks:us-east-1:250364183413:cluster/DG-STAGE-E
 
 
 # Troubleshoot by attaching to pods/nodes 
+https://medium.com/@the_good_guy/get-shell-access-to-pods-nodes-in-kubernetes-using-kubectl-1d8fc10e89eb
+https://www.youtube.com/watch?v=qKb6loAEPV0
 
 ##  shell 
 kubectl exec -it <pod-name> —- /bin/sh
