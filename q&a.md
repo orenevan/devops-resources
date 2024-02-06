@@ -100,13 +100,14 @@ https://www.educative.io/courses/web-application-software-architecture-101
 
 ## Docker_images_reducing_size 
 
+```
 What ways are there to reduce container images size?
 
 Reduce number of instructions - in some case you may be able to join layers by installing multiple packages with one instructions for example or using && to concatenate RUN instructions
 Using smaller images - in some cases you might be using images that contain more than what is needed for your application to run. It is good to get overview of some images and see whether you can use smaller images that you are usually using.
 Cleanup after running commands - some commands, like packages installation, create some metadata or cache that you might not need for running the application. It's important to clean up after such commands to reduce the image size
 For Docker images, you can use multi-stage builds
-
+```
 
 
 
