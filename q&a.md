@@ -117,6 +117,8 @@ For Docker images, you can use multi-stage builds
   https://infosecwriteups.com/top-10-dockerfile-security-best-practices-for-a-more-secure-container-e5426f69738b
 
 ### Non root user 
+
+``` 
 Running as non-root use
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 //Create group app and user app
@@ -128,7 +130,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:5.0
  COPY bin/Release/netcoreapp3.1/publish/ App/
  WORKDIR /App
  ENTRYPOINT ["dotnet", "aspnetapp.dll"]
-
+```
 
 
  
