@@ -14,7 +14,8 @@
    - [horizontal-vs-vertical-scaling](#horizontal-vs-vertical-scaling)
    - [development-and-deployment-of-massively-multiplayer-games-from-social-games](#development-and-deployment-of-massively-multiplayer-games-from-social-games)
    - [message-queues] (#message-queues)
-- [api]#api 
+- [api] (#api)
+- [linux_directories] #linux_directories  
 - [Docker_images_reducing_size](#Docker_images_reducing_size)
   - [Docker_file_security](#Docker_files_security)
 - [Configuration](#configuration)
@@ -144,6 +145,41 @@ https://www.educative.io/courses/web-application-software-architecture-101
 ✨ Enables event-driven architecture, triggering actions based on specific events or changes
 ✨ Provides flexibility by allowing developers to define custom endpoints and payloads
 ✨ Widely used for integrating third-party services, automating workflows, and building event-driven systems
+
+## linux direcotries 
+
+
+📁 /: The root directory serves as the starting point for the entire file system.
+
+📁 /bin: Contains essential executable files and system commands used for everyday tasks.
+
+📁 /boot: Holds files necessary for booting the system, including the kernel.
+
+📁 /dev: Represents devices connected to the system, such as hard drives, printers, and input devices.
+
+📁 /etc: Stores system-wide configuration files, including network settings and software configurations.
+
+📁 /home: Houses the home directories of individual users, where personal files and settings are stored.
+
+📁 /lib or /lib64: Contains libraries that provide essential functions to programs and applications.
+
+📁 /media or /mnt: Mount points for removable media, such as USB drives and optical discs.
+
+📁 /opt: Used for optional software packages that are not part of the core system.
+
+📁 /proc: A virtual file system that provides information about running processes and system resources.
+
+📁 /root: The home directory for the root user, the system administrator (not to be confused with the primary root directory mentioned above)
+
+📁 /sbin: Stores system binaries used for system administration tasks.
+
+📁 /tmp: A temporary directory for storing temporary files.
+
+📁 /usr: Contains user-related programs, libraries, documentation, and other resources.
+
+📁 /var: Stores variable data, such as log files, spool files, and temporary files.
+
+Every directory in Linux plays a crucial role in how the operating system functions. They provide an organized framework for storing data and system files. When you delve into the Filesystem Hierarchy, you gain a deeper understanding of why certain files belong in specific directories and why permissions are assigned.
 
 
 ## Docker_images_reducing_size 
